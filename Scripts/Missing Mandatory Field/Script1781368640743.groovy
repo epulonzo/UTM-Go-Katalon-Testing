@@ -17,3 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser(null)
+
+WebUI.navigateToUrl('https://utm-go.vercel.app/')
+
+WebUI.setText(findTestObject('Record Module/Page_UTMGo/Page_UTMGo/input_yougraduate.utm.my'), 'fakhrul-04@graduate.utm.my')
+
+WebUI.setEncryptedText(findTestObject('Record Module/Page_UTMGo/Page_UTMGo/input_Enter your password'), 'RigbBhfdqOBGNlJIWM1ClA==')
+
+WebUI.click(findTestObject('Record Module/Page_UTMGo/Page_UTMGo/button_Sign In'))
+
+WebUI.click(findTestObject('Record Module/Page_UTMGo/Page_UTMGo/button_Record'))
+
+WebUI.setText(findTestObject('Record Module/Page_UTMGo/Page_UTMGo/input_Enter activity name'), 'futsal matches')
+
+WebUI.selectOptionByValue(findTestObject('Record Module/Page_UTMGo/Page_UTMGo/select_Select activity typeBadmintonFutsalVolley'), 
+    'Futsal', false)
+
+WebUI.setText(findTestObject('Record Module/Page_UTMGo/Page_UTMGo/input_w-full h-12 px-4 border rounded-lg transiti'), '13-06-2026')
+
+WebUI.click(findTestObject('Record Module/Page_UTMGo/Page_UTMGo/input_e.g., 1.5'))
+
+WebUI.click(findTestObject('Record Module/Page_UTMGo/Page_UTMGo/button_Submit Activity'))
+
+WebUI.click(findTestObject('Record Module/Page_UTMGo/Page_UTMGo/p_Please complete all required fields'))
+

@@ -9,6 +9,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Record Module/Page_UTMGo/button_OK_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Record Module/Page_UTMGo/path_path",
+      "brokenLocator": "//*[@class and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 lucide-pen \u0027)]//path",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type\u003d\u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Record Module/Page_UTMGo/path_path_XPATH.png"
     }
   ]
 }

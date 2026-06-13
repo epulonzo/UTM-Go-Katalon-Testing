@@ -10,6 +10,10 @@
          <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' text-primary-foreground ')]</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Sign In' or . = 'Sign In')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>.rounded-md.text-primary-foreground</value>
       </entry>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>24264bd4-5a56-4464-bcf4-c71e4655d960</webElementGuid>
+      <webElementGuid>84ecac34-6df1-485f-affd-98a29108ed7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f3253a38-2756-4b34-b34c-2001f8739fa7</webElementGuid>
+      <webElementGuid>02fd3adc-332f-4b39-8fcd-9b1a3210bb51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>gap-2 whitespace-nowrap rounded-md text-sm font-medium disabled:pointer-events-none [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2 has-[>svg]:px-3 w-full h-12 mt-6 flex items-center justify-center disabled:opacity-60 transition-all active:scale-95</value>
-      <webElementGuid>a98ecbaf-c7d9-40dd-bd07-cb5c872a4c85</webElementGuid>
+      <webElementGuid>74fb2617-a816-4956-b74a-c15e87320741</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign In</value>
-      <webElementGuid>523d15be-1d10-4446-98f2-b66279186739</webElementGuid>
+      <webElementGuid>a2857fb8-857f-41fc-89d8-1b21c6d7ebb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +65,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-fead33c45ea34f159997d638758ae093</value>
-      <webElementGuid>278cfc54-5faa-4fe4-995c-003f3edfb8df</webElementGuid>
+      <webElementGuid>1aa9e8b4-0ef6-4014-8390-9f3b6968c5ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' text-primary-foreground ')]</value>
-      <webElementGuid>33c33ffd-56b4-4f8b-96d0-c44300264c96</webElementGuid>
+      <webElementGuid>7cd2d7f7-0f2f-498f-be01-2d24b8c663a5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' text-primary-foreground ')]</value>
-      <webElementGuid>05ba8e44-e805-4cd5-84d4-a1c1f5044d7e</webElementGuid>
+      <webElementGuid>cf0a2bc7-0478-4aa9-b0fc-d772c693c8e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Sign In' or . = 'Sign In')]</value>
-      <webElementGuid>962930ca-1bc7-4d6e-9574-39c6d503c780</webElementGuid>
+      <webElementGuid>009632f1-5124-4363-9aec-2011ad3b0414</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

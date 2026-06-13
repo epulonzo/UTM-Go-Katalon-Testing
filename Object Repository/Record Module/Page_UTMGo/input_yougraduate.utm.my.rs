@@ -10,6 +10,10 @@
          <value>//*[@id = 'email']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'email' and @placeholder = 'you@graduate.utm.my' and @type = 'email']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#email</value>
       </entry>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>bf21211f-a5fb-40a4-92dd-8c9cadcd3639</webElementGuid>
+      <webElementGuid>6f14d69e-1ba3-4dfb-84ca-839bf7948ae6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>70d64aee-58d6-4893-b9cb-ab1ea61c8113</webElementGuid>
+      <webElementGuid>4c4748e2-d541-42f5-a8d3-414e47bd8879</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex w-full min-w-0 rounded-md py-1 bg-input-background transition-[color,box-shadow] outline-none disabled:opacity-50 focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] h-12 px-4 border text-[16px]</value>
-      <webElementGuid>3ee70689-1d37-4ae6-ab95-55154b56a1ad</webElementGuid>
+      <webElementGuid>21b62fdc-c5d2-405c-bb97-36643c12372b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>id</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>cb11331f-1171-4cb2-9528-e79ab044d50e</webElementGuid>
+      <webElementGuid>f8df7faa-1b00-4a19-9e77-f6afd65ece7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>you@graduate.utm.my</value>
-      <webElementGuid>a5f4e979-e72c-463a-91e0-e4de1da52630</webElementGuid>
+      <webElementGuid>495d547f-3538-40e4-bcdd-2684f014394e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>username</value>
-      <webElementGuid>079010a4-39c6-4329-9c80-07c15d4cf14e</webElementGuid>
+      <webElementGuid>206acbfe-e616-48b8-b922-0dc58aff5d71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>inputmode</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>c143c517-78f2-44b5-b9d4-70a7aedf11b5</webElementGuid>
+      <webElementGuid>7bec2f5c-cd1a-409a-b133-01ead5283afb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>spellcheck</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>cc22b5d7-4268-4b1a-a741-cabbcb5be653</webElementGuid>
+      <webElementGuid>a7b6e0b6-29d7-490e-b3cd-79b70ea2ace5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -93,7 +97,7 @@
       <name>type</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>1ba38753-debd-4b3b-bc68-84ca61e0d281</webElementGuid>
+      <webElementGuid>a54bf027-5ba1-4da0-9c74-e4fc89021a31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-5b9ce64e1b01ab27ccfccd2252edf06f</value>
-      <webElementGuid>2a984c73-4744-468a-b1c7-31705d843a49</webElementGuid>
+      <webElementGuid>986c73e9-32bd-4352-9847-62cf4cfb513e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id = 'email']</value>
-      <webElementGuid>aced0c88-3dec-4ddc-99a2-454a665f5345</webElementGuid>
+      <webElementGuid>5537fa27-9956-48a4-bf1e-a7fb02e755fd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@id = 'email']</value>
-      <webElementGuid>7589ebf9-6ef8-4817-835b-3db90670c1c0</webElementGuid>
+      <webElementGuid>80dc228d-760d-4fce-bdc3-41b92a14624a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +129,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'email' and @placeholder = 'you@graduate.utm.my' and @type = 'email']</value>
-      <webElementGuid>a3f1d393-1e75-466b-8349-887bab92626c</webElementGuid>
+      <webElementGuid>69d61cff-f752-4f59-bd9a-e3ec751ebf8c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

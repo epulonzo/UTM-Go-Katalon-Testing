@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser(null)
+
+WebUI.navigateToUrl('https://utm-go.vercel.app/')
+
+WebUI.setText(findTestObject('Record Module/Page_UTMGo/input_yougraduate.utm.my'), 'fakhrul-04@graduate.utm.my')
+
+WebUI.setEncryptedText(findTestObject('Record Module/Page_UTMGo/input_Enter your password'), 'RigbBhfdqOBGNlJIWM1ClA==')
+
+WebUI.click(findTestObject('Record Module/Page_UTMGo/button_Sign In'))
+
+WebUI.click(findTestObject('Record Module/Page_UTMGo/button_Activity'))
+
+WebUI.click(findTestObject('Record Module/Page_UTMGo/path_path'))
+
+WebUI.setText(findTestObject('Record Module/Page_UTMGo/textarea_w-full px-4 py-3 border rounded transit'), 'Training with coach Habib')
+
+WebUI.click(findTestObject('Record Module/Page_UTMGo/button_Save Changes'))
+

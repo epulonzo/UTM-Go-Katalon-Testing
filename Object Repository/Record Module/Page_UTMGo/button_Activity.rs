@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Activity</name>
+   <tag></tag>
+   <elementGuidId>2a9cabfc-2274-4633-914d-c1b3ca55c6cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-all ') and contains(concat(' ', normalize-space(@class), ' '), ' items-center ') and (name() = 'button') and (position() = 4)]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.rounded-lg.transition-all.items-center:nth-child(4)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Activity&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>251d6cdf-596a-414f-8b47-845e56f4e279</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-2 px-5 py-2.5 rounded-lg transition-all hover:bg-opacity-10</value>
+      <webElementGuid>5f68bad5-a3bb-44d1-b0d3-8cd2a3fec3a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Activity</value>
+      <webElementGuid>fbcfc3a2-6b5d-42c2-b14e-b885f8f173aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-10163ac757f565b3b496a6fb7788a570</value>
+      <webElementGuid>e1f6f3cc-a263-4c73-bd5e-3cc580e94c2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-all ') and contains(concat(' ', normalize-space(@class), ' '), ' items-center ') and (name() = 'button') and (position() = 4)]</value>
+      <webElementGuid>b326068a-b03a-4aac-ba46-24a969610991</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-all ') and contains(concat(' ', normalize-space(@class), ' '), ' items-center ') and (name() = 'button') and (position() = 4)]</value>
+      <webElementGuid>2db475be-0b08-4234-834a-b542147dcafc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Activity' or . = 'Activity')]</value>
+      <webElementGuid>8c5ec469-f17f-45c0-92d9-444cfd1aec63</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
