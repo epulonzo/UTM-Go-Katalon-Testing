@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that a logged-in student can open the Book Facility screen and see a list of facilities with name, location, and image.</description>
+   <name>Browse facility list successfully</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>577184eb-7260-4f15-ae67-09fb718b6f10</testCaseGuid>
+</TestCaseEntity>
