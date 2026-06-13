@@ -1,0 +1,35 @@
+2026-06-14 05:57:54.617 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\lenovo\.katalon\packages\KS-11.2.0\configuration\org.eclipse.osgi\151\0\.cp\resources\logback\logback-execution.xml
+2026-06-14 05:57:54.623 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\lenovo\Desktop\HABIBULLAH\20252026-2\SQA\Katalon\UTM-Go-Katalon-Testing\Include\config\log.properties
+2026-06-14 05:57:56.058 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Comment on Sports Discussions
+2026-06-14 05:57:56.205 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = habibullah
+2026-06-14 05:57:56.207 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = UTM-Go-Katalon-Testing
+2026-06-14 05:57:56.208 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Handsome - LAPTOP-GUEJSDOP
+2026-06-14 05:57:56.209 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-06-14 05:57:56.210 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.56.1
+2026-06-14 05:57:56.216 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.2.0.0
+2026-06-14 05:57:56.472 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-14 05:57:56.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Community Module/Submit Comment Successfully
+2026-06-14 05:57:57.174 DEBUG testcase.Submit Comment Successfully     - 1: openBrowser(null)
+2026-06-14 05:57:57.823 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-14 05:57:57.920 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-14 05:58:01.063 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4afafd4edea0a56a18c678dcf26ac12d
+2026-06-14 05:58:01.066 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.114
+2026-06-14 05:58:01.067 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-06-14 05:58:01.068 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-14 05:58:01.088 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-14 05:58:01.179 DEBUG testcase.Submit Comment Successfully     - 2: navigateToUrl("https://utm-go.vercel.app/home")
+2026-06-14 05:58:01.901 DEBUG testcase.Submit Comment Successfully     - 3: setText(findTestObject("Facility Module/Page_UTMGo/input_yougraduate.utm.my"), "habibullah@graduate.utm.my")
+2026-06-14 05:58:03.100 DEBUG testcase.Submit Comment Successfully     - 4: setEncryptedText(findTestObject("Facility Module/Page_UTMGo/input_Enter your password"), "f7IgQFd4qQo=")
+2026-06-14 05:58:03.584 DEBUG testcase.Submit Comment Successfully     - 5: click(findTestObject("Facility Module/Page_UTMGo/button_Sign In"))
+2026-06-14 05:58:04.016 DEBUG testcase.Submit Comment Successfully     - 6: click(findTestObject("Facility Module/Page_UTMGo/button_Community"))
+2026-06-14 05:58:05.649 DEBUG testcase.Submit Comment Successfully     - 7: click(findTestObject("Facility Module/Page_UTMGo/button_DiscussionJoin community conversations"))
+2026-06-14 05:58:07.131 DEBUG testcase.Submit Comment Successfully     - 8: click(findTestObject("Facility Module/Page_UTMGo/div_mmuhammad habibullah6_13_2026, 9_37_58 PMTes"))
+2026-06-14 05:58:17.281 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+> Remove hidden elements: 31,194 -> 8,606 (-72.58%)
+> Remove next siblings: 8,606 -> 8,606 (-0%)
+> Remove redundant parents: 8,606 -> 8,606 (-0%)
+> Remove event handler attributes: 8,606 -> 8,606 (-0%)
+> Trim long attributes: 8,606 -> 5,711 (-9.3%)
+> Trim long text: 5,711 -> 5,688 (-0.07%)
+> Minify HTML syntax: 5,688 -> 5,543 (-0.47%)
+>>> Total: 31,121 -> 5,688 (-81.72%)

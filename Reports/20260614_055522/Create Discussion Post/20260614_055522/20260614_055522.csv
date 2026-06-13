@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create Discussion Post,Chrome 149.0.7827.114,,,14-06-2026 05:55:32,14-06-2026 05:56:06,34.187s,PASSED
+,,,,,,,
+Test Cases/Community Module/Create Discussion Post Successfully,Chrome 149.0.7827.114,,,14-06-2026 05:55:32,14-06-2026 05:55:47,14.610s,PASSED
+openBrowser(null),Chrome 149.0.7827.114,,,14-06-2026 05:55:33,14-06-2026 05:55:37,4.010s,PASSED
+"navigateToUrl(""https://utm-go.vercel.app/home"")",Chrome 149.0.7827.114,,,14-06-2026 05:55:37,14-06-2026 05:55:37,0.388s,PASSED
+"setText(findTestObject(""Community Module/Page_UTMGo/input_yougraduate.utm.my""), ""habibullah@graduate.utm.my"")",Chrome 149.0.7827.114,,,14-06-2026 05:55:37,14-06-2026 05:55:39,1.580s,PASSED
+"setEncryptedText(findTestObject(""Community Module/Page_UTMGo/input_Enter your password""), ""f7IgQFd4qQo="")",Chrome 149.0.7827.114,,,14-06-2026 05:55:39,14-06-2026 05:55:39,0.465s,PASSED
+"sendKeys(findTestObject(""Community Module/Page_UTMGo/input_Enter your password""), Keys.chord(ENTER))",Chrome 149.0.7827.114,,,14-06-2026 05:55:39,14-06-2026 05:55:40,0.395s,PASSED
+"click(findTestObject(""Community Module/Page_UTMGo/button_Sign In""))",Chrome 149.0.7827.114,,,14-06-2026 05:55:40,14-06-2026 05:55:40,0.436s,PASSED
+"click(findTestObject(""Community Module/Page_UTMGo/button_Community""))",Chrome 149.0.7827.114,,,14-06-2026 05:55:40,14-06-2026 05:55:41,1.257s,PASSED
+"click(findTestObject(""Community Module/Page_UTMGo/button_DiscussionJoin community conversations""))",Chrome 149.0.7827.114,,,14-06-2026 05:55:41,14-06-2026 05:55:42,0.615s,PASSED
+"click(findTestObject(""Community Module/Page_UTMGo/svg_lucide lucide-plus w-5 h-5""))",Chrome 149.0.7827.114,,,14-06-2026 05:55:42,14-06-2026 05:55:43,0.893s,PASSED
+"setText(findTestObject(""Community Module/Page_UTMGo/input_What would you like to discuss""), ""Test"")",Chrome 149.0.7827.114,,,14-06-2026 05:55:43,14-06-2026 05:55:44,0.988s,PASSED
+"setText(findTestObject(""Community Module/Page_UTMGo/textarea_Share your thoughts with the community""), ""Test 123"")",Chrome 149.0.7827.114,,,14-06-2026 05:55:44,14-06-2026 05:55:45,0.759s,PASSED
+"click(findTestObject(""Community Module/Page_UTMGo/button_Post""))",Chrome 149.0.7827.114,,,14-06-2026 05:55:45,14-06-2026 05:55:45,0.630s,PASSED
+"click(findTestObject(""Community Module/Page_UTMGo/div_mmuhammad habibullah6_13_2026, 9_37_58 PMTes""))",Chrome 149.0.7827.114,,,14-06-2026 05:55:45,14-06-2026 05:55:47,1.450s,PASSED
+,,,,,,,
+Test Cases/Community Module/Failed Discussion Post without Title,Chrome 149.0.7827.114,,,14-06-2026 05:55:47,14-06-2026 05:56:06,18.833s,PASSED
+openBrowser(null),Chrome 149.0.7827.114,,,14-06-2026 05:55:47,14-06-2026 05:55:49,1.679s,PASSED
+"navigateToUrl(""https://utm-go.vercel.app/home"")",Chrome 149.0.7827.114,,,14-06-2026 05:55:49,14-06-2026 05:55:49,0.713s,PASSED
+"setText(findTestObject(""Community Module/Page_UTMGo/input_yougraduate.utm.my""), ""habibullah@graduate.utm.my"")",Chrome 149.0.7827.114,,,14-06-2026 05:55:49,14-06-2026 05:55:50,1.081s,PASSED
+"setEncryptedText(findTestObject(""Community Module/Page_UTMGo/input_Enter your password""), ""f7IgQFd4qQo="")",Chrome 149.0.7827.114,,,14-06-2026 05:55:50,14-06-2026 05:55:51,0.451s,PASSED
+"sendKeys(findTestObject(""Community Module/Page_UTMGo/input_Enter your password""), Keys.chord(ENTER))",Chrome 149.0.7827.114,,,14-06-2026 05:55:51,14-06-2026 05:55:51,0.331s,PASSED
+"click(findTestObject(""Community Module/Page_UTMGo/button_Sign In""))",Chrome 149.0.7827.114,,,14-06-2026 05:55:51,14-06-2026 05:55:52,0.388s,PASSED
+"click(findTestObject(""Community Module/Page_UTMGo/button_Community""))",Chrome 149.0.7827.114,,,14-06-2026 05:55:52,14-06-2026 05:55:53,1.461s,PASSED
+"click(findTestObject(""Community Module/Page_UTMGo/button_DiscussionJoin community conversations""))",Chrome 149.0.7827.114,,,14-06-2026 05:55:53,14-06-2026 05:55:54,0.603s,PASSED
+"click(findTestObject(""Community Module/Page_UTMGo/svg_lucide lucide-plus w-5 h-5""))",Chrome 149.0.7827.114,,,14-06-2026 05:55:54,14-06-2026 05:55:55,0.865s,PASSED
+"setText(findTestObject(""Community Module/Page_UTMGo/textarea_Share your thoughts with the community""), ""Test123"")",Chrome 149.0.7827.114,,,14-06-2026 05:55:55,14-06-2026 05:55:55,0.968s,PASSED
+"click(findTestObject(""Community Module/Page_UTMGo/button_Post""))",Chrome 149.0.7827.114,,,14-06-2026 05:55:55,14-06-2026 05:56:06,10.127s,PASSED

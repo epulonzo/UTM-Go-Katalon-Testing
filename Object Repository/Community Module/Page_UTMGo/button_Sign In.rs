@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Sign In</name>
    <tag></tag>
-   <elementGuidId>63400b11-e995-4711-a223-38793229aebc</elementGuidId>
+   <elementGuidId>9d24b335-0f03-4a6c-a558-754ba4e5640c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0c47db93-5d83-40e7-83b1-1560dd66a667</webElementGuid>
+      <webElementGuid>63ec7dda-c683-4174-a20d-d110998639e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>data-slot</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>15bb223c-67dd-4fd8-99a9-a6759a83f9fb</webElementGuid>
+      <webElementGuid>d6472698-de74-4aa8-92cf-2c5a9869921b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>gap-2 whitespace-nowrap rounded-md text-sm font-medium disabled:pointer-events-none [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2 has-[>svg]:px-3 w-full h-12 mt-6 flex items-center justify-center disabled:opacity-60 transition-all active:scale-95</value>
-      <webElementGuid>54593812-c081-4af8-989a-0e334953a657</webElementGuid>
+      <webElementGuid>585edf11-0a27-4a02-85f8-4a188e82fb2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sign In</value>
-      <webElementGuid>d2ed9d7c-bc6c-4338-97e8-e2b9e52da4fa</webElementGuid>
+      <webElementGuid>c85c23d8-9a68-402d-b79f-6b153e36f251</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-fead33c45ea34f159997d638758ae093</value>
-      <webElementGuid>ba7baa22-03b3-466d-8642-fdae2eb2fc6c</webElementGuid>
+      <webElementGuid>ee5bb1a0-46b1-410f-b79d-4435a93013c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' text-primary-foreground ')]</value>
-      <webElementGuid>7e7e35fa-6efb-44e1-b020-045f44f95545</webElementGuid>
+      <webElementGuid>9c6dcc0e-dbf7-4b1a-9e49-193d93ac45fa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' text-primary-foreground ')]</value>
-      <webElementGuid>d767a5c7-49dc-4593-ab34-8b3c304aa9d0</webElementGuid>
+      <webElementGuid>0ae0aa39-fc98-4faa-8339-6c11e0383cdd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Sign In' or . = 'Sign In')]</value>
-      <webElementGuid>92d69e9d-fcd8-40fe-ab20-f623fe106fc0</webElementGuid>
+      <webElementGuid>0a5b667c-e304-4378-930b-425ac05a67a1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

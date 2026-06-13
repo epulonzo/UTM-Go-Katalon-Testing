@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Comment on Sports Discussions,Chrome 149.0.7827.114,,,14-06-2026 05:58:38,14-06-2026 05:58:51,13.165s,PASSED
+,,,,,,,
+Test Cases/Community Module/Submit Comment Successfully,Chrome 149.0.7827.114,,,14-06-2026 05:58:38,14-06-2026 05:58:51,12.526s,PASSED
+openBrowser(null),Chrome 149.0.7827.114,,,14-06-2026 05:58:39,14-06-2026 05:58:43,3.938s,PASSED
+"navigateToUrl(""https://utm-go.vercel.app/home"")",Chrome 149.0.7827.114,,,14-06-2026 05:58:43,14-06-2026 05:58:43,0.572s,PASSED
+"setText(findTestObject(""Facility Module/Page_UTMGo/input_yougraduate.utm.my""), ""habibullah@graduate.utm.my"")",Chrome 149.0.7827.114,,,14-06-2026 05:58:43,14-06-2026 05:58:45,1.292s,PASSED
+"setEncryptedText(findTestObject(""Facility Module/Page_UTMGo/input_Enter your password""), ""f7IgQFd4qQo="")",Chrome 149.0.7827.114,,,14-06-2026 05:58:45,14-06-2026 05:58:45,0.459s,PASSED
+"click(findTestObject(""Facility Module/Page_UTMGo/button_Sign In""))",Chrome 149.0.7827.114,,,14-06-2026 05:58:45,14-06-2026 05:58:45,0.429s,PASSED
+"click(findTestObject(""Facility Module/Page_UTMGo/button_Community""))",Chrome 149.0.7827.114,,,14-06-2026 05:58:45,14-06-2026 05:58:47,1.165s,PASSED
+"click(findTestObject(""Facility Module/Page_UTMGo/button_DiscussionJoin community conversations""))",Chrome 149.0.7827.114,,,14-06-2026 05:58:47,14-06-2026 05:58:47,0.628s,PASSED
+"click(findTestObject(""Facility Module/Page_UTMGo/div_mmuhammad habibullah6_13_2026, 9_37_58 PMTes""))",Chrome 149.0.7827.114,,,14-06-2026 05:58:47,14-06-2026 05:58:48,0.843s,PASSED
+"setText(findTestObject(""Facility Module/Page_UTMGo/input_Write a comment""), ""Test Comment"")",Chrome 149.0.7827.114,,,14-06-2026 05:58:48,14-06-2026 05:58:50,2.138s,PASSED
+"click(findTestObject(""Facility Module/Page_UTMGo/button_Send""))",Chrome 149.0.7827.114,,,14-06-2026 05:58:50,14-06-2026 05:58:51,0.384s,PASSED

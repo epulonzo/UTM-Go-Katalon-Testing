@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create Discussion Post" time="33.878" tests="2" passed="2" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Create Discussion Post" tests="2" passed="2" failures="0" errors="0" incompleted="0" skipped="0" time="33.878" timestamp="2026-06-13T21:55:32.248Z" hostname="Handsome - LAPTOP-GUEJSDOP" id="Test Suites/Create Discussion Post" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\lenovo\\Desktop\\HABIBULLAH\\20252026-2\\SQA\\Katalon\\UTM-Go-Katalon-Testing\\Reports\\20260614_055522\\Create Discussion Post\\20260614_055522"/>
+         <property name="logFiles" value="C:\\Users\\lenovo\\Desktop\\HABIBULLAH\\20252026-2\\SQA\\Katalon\\UTM-Go-Katalon-Testing\\Reports\\20260614_055522\\Create Discussion Post\\20260614_055522\\console0.log, C:\\Users\\lenovo\\Desktop\\HABIBULLAH\\20252026-2\\SQA\\Katalon\\UTM-Go-Katalon-Testing\\Reports\\20260614_055522\\Create Discussion Post\\20260614_055522\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="Handsome - LAPTOP-GUEJSDOP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="11.2.0.0"/>
+         <property name="browser" value="Chrome 149.0.7827.114"/>
+         <property name="userFullName" value="habibullah"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="9dbf5460f98301f2bd2334fd7902b0b6"/>
+         <property name="projectName" value="UTM-Go-Katalon-Testing"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Community Module/Create Discussion Post Successfully" time="14.61" classname="Test Cases/Community Module/Create Discussion Post Successfully" status="PASSED">
+         <system-out><![CDATA[14-06-2026T05:55:32 - [TEST_CASE][PASSED] - Test Cases/Community Module/Create Discussion Post Successfully: Test Cases/Community Module/Create Discussion Post Successfully
+
+14-06-2026T05:55:33 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+14-06-2026T05:55:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2026T05:55:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2026T05:55:37 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+14-06-2026T05:55:37 - [TEST_STEP][PASSED] - navigateToUrl("https://utm-go.vercel.app/home"): Navigate to 'https://utm-go.vercel.app/home' successfully
+
+14-06-2026T05:55:37 - [MESSAGE][PASSED] - Navigate to 'https://utm-go.vercel.app/home' successfully
+
+14-06-2026T05:55:37 - [TEST_STEP][PASSED] - setText(findTestObject("Community Module/Page_UTMGo/input_yougraduate.utm.my"), "habibullah@graduate.utm.my"): Text 'habibullah@graduate.utm.my' is set on object 'Object Repository/Community Module/Page_UTMGo/input_yougraduate.utm.my'
+
+14-06-2026T05:55:39 - [MESSAGE][PASSED] - Text 'habibullah@graduate.utm.my' is set on object 'Object Repository/Community Module/Page_UTMGo/input_yougraduate.utm.my'
+
+14-06-2026T05:55:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Community Module/Page_UTMGo/input_Enter your password"), "f7IgQFd4qQo="): Text ****** has been set on object 'Object Repository/Community Module/Page_UTMGo/input_Enter your password'
+
+14-06-2026T05:55:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Community Module/Page_UTMGo/input_Enter your password'
+
+14-06-2026T05:55:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Community Module/Page_UTMGo/input_Enter your password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Community Module/Page_UTMGo/input_Enter your password'
+
+14-06-2026T05:55:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Community Module/Page_UTMGo/input_Enter your password'
+
+14-06-2026T05:55:40 - [TEST_STEP][PASSED] - click(findTestObject("Community Module/Page_UTMGo/button_Sign In")): Object: 'Object Repository/Community Module/Page_UTMGo/button_Sign In' is clicked on
+
+14-06-2026T05:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Community Module/Page_UTMGo/button_Sign In' is clicked on
+
+14-06-2026T05:55:40 - [TEST_STEP][PASSED] - click(findTestObject("Community Module/Page_UTMGo/button_Community")): Object: 'Object Repository/Community Module/Page_UTMGo/button_Community' is clicked on
+
+14-06-2026T05:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Community Module/Page_UTMGo/button_Community' is clicked on
+
+14-06-2026T05:55:41 - [TEST_STEP][PASSED] - click(findTestObject("Community Module/Page_UTMGo/button_DiscussionJoin community conversations")): Object: 'Object Repository/Community Module/Page_UTMGo/button_DiscussionJoin community conversations' is clicked on
+
+14-06-2026T05:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Community Module/Page_UTMGo/button_DiscussionJoin community conversations' is clicked on
+
+14-06-2026T05:55:42 - [TEST_STEP][PASSED] - click(findTestObject("Community Module/Page_UTMGo/svg_lucide lucide-plus w-5 h-5")): Object: 'Object Repository/Community Module/Page_UTMGo/svg_lucide lucide-plus w-5 h-5' is clicked on
+
+14-06-2026T05:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Community Module/Page_UTMGo/svg_lucide lucide-plus w-5 h-5' is clicked on
+
+14-06-2026T05:55:43 - [TEST_STEP][PASSED] - setText(findTestObject("Community Module/Page_UTMGo/input_What would you like to discuss"), "Test"): Text 'Test' is set on object 'Object Repository/Community Module/Page_UTMGo/input_What would you like to discuss'
+
+14-06-2026T05:55:44 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Community Module/Page_UTMGo/input_What would you like to discuss'
+
+14-06-2026T05:55:44 - [TEST_STEP][PASSED] - setText(findTestObject("Community Module/Page_UTMGo/textarea_Share your thoughts with the community"), "Test 123"): Text 'Test 123' is set on object 'Object Repository/Community Module/Page_UTMGo/textarea_Share your thoughts with the community'
+
+14-06-2026T05:55:45 - [MESSAGE][PASSED] - Text 'Test 123' is set on object 'Object Repository/Community Module/Page_UTMGo/textarea_Share your thoughts with the community'
+
+14-06-2026T05:55:45 - [TEST_STEP][PASSED] - click(findTestObject("Community Module/Page_UTMGo/button_Post")): Object: 'Object Repository/Community Module/Page_UTMGo/button_Post' is clicked on
+
+14-06-2026T05:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Community Module/Page_UTMGo/button_Post' is clicked on
+
+14-06-2026T05:55:45 - [TEST_STEP][PASSED] - click(findTestObject("Community Module/Page_UTMGo/div_mmuhammad habibullah6_13_2026, 9_37_58 PMTes")): Object: 'Object Repository/Community Module/Page_UTMGo/div_mmuhammad habibullah6_13_2026, 9_37_58 PMTes' is clicked on
+
+14-06-2026T05:55:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Community Module/Page_UTMGo/div_mmuhammad habibullah6_13_2026, 9_37_58 PMTes' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Community Module/Failed Discussion Post without Title" time="18.833" classname="Test Cases/Community Module/Failed Discussion Post without Title" status="PASSED">
+         <system-out><![CDATA[14-06-2026T05:55:47 - [TEST_CASE][PASSED] - Test Cases/Community Module/Failed Discussion Post without Title: Test Cases/Community Module/Failed Discussion Post without Title
+
+14-06-2026T05:55:47 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+14-06-2026T05:55:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+14-06-2026T05:55:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2026T05:55:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2026T05:55:49 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+14-06-2026T05:55:49 - [TEST_STEP][PASSED] - navigateToUrl("https://utm-go.vercel.app/home"): Navigate to 'https://utm-go.vercel.app/home' successfully
+
+14-06-2026T05:55:49 - [MESSAGE][PASSED] - Navigate to 'https://utm-go.vercel.app/home' successfully
+
+14-06-2026T05:55:49 - [TEST_STEP][PASSED] - setText(findTestObject("Community Module/Page_UTMGo/input_yougraduate.utm.my"), "habibullah@graduate.utm.my"): Text 'habibullah@graduate.utm.my' is set on object 'Object Repository/Community Module/Page_UTMGo/input_yougraduate.utm.my'
+
+14-06-2026T05:55:50 - [MESSAGE][PASSED] - Text 'habibullah@graduate.utm.my' is set on object 'Object Repository/Community Module/Page_UTMGo/input_yougraduate.utm.my'
+
+14-06-2026T05:55:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Community Module/Page_UTMGo/input_Enter your password"), "f7IgQFd4qQo="): Text ****** has been set on object 'Object Repository/Community Module/Page_UTMGo/input_Enter your password'
+
+14-06-2026T05:55:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Community Module/Page_UTMGo/input_Enter your password'
+
+14-06-2026T05:55:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Community Module/Page_UTMGo/input_Enter your password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Community Module/Page_UTMGo/input_Enter your password'
+
+14-06-2026T05:55:51 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Community Module/Page_UTMGo/input_Enter your password'
+
+14-06-2026T05:55:51 - [TEST_STEP][PASSED] - click(findTestObject("Community Module/Page_UTMGo/button_Sign In")): Object: 'Object Repository/Community Module/Page_UTMGo/button_Sign In' is clicked on
+
+14-06-2026T05:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Community Module/Page_UTMGo/button_Sign In' is clicked on
+
+14-06-2026T05:55:52 - [TEST_STEP][PASSED] - click(findTestObject("Community Module/Page_UTMGo/button_Community")): Object: 'Object Repository/Community Module/Page_UTMGo/button_Community' is clicked on
+
+14-06-2026T05:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Community Module/Page_UTMGo/button_Community' is clicked on
+
+14-06-2026T05:55:53 - [TEST_STEP][PASSED] - click(findTestObject("Community Module/Page_UTMGo/button_DiscussionJoin community conversations")): Object: 'Object Repository/Community Module/Page_UTMGo/button_DiscussionJoin community conversations' is clicked on
+
+14-06-2026T05:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Community Module/Page_UTMGo/button_DiscussionJoin community conversations' is clicked on
+
+14-06-2026T05:55:54 - [TEST_STEP][PASSED] - click(findTestObject("Community Module/Page_UTMGo/svg_lucide lucide-plus w-5 h-5")): Object: 'Object Repository/Community Module/Page_UTMGo/svg_lucide lucide-plus w-5 h-5' is clicked on
+
+14-06-2026T05:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Community Module/Page_UTMGo/svg_lucide lucide-plus w-5 h-5' is clicked on
+
+14-06-2026T05:55:55 - [TEST_STEP][PASSED] - setText(findTestObject("Community Module/Page_UTMGo/textarea_Share your thoughts with the community"), "Test123"): Text 'Test123' is set on object 'Object Repository/Community Module/Page_UTMGo/textarea_Share your thoughts with the community'
+
+14-06-2026T05:55:55 - [MESSAGE][PASSED] - Text 'Test123' is set on object 'Object Repository/Community Module/Page_UTMGo/textarea_Share your thoughts with the community'
+
+14-06-2026T05:55:55 - [TEST_STEP][PASSED] - click(findTestObject("Community Module/Page_UTMGo/button_Post")): Object: 'Object Repository/Community Module/Page_UTMGo/button_Post' is clicked on
+
+14-06-2026T05:56:06 - [MESSAGE][WARNING] - Waiting for element timed out
+
+14-06-2026T05:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Community Module/Page_UTMGo/button_Post' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-06-2026T05:55:32 - [TEST_SUITE][PASSED] - Create Discussion Post: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

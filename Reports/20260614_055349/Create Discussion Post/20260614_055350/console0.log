@@ -1,0 +1,37 @@
+2026-06-14 05:53:59.701 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\lenovo\.katalon\packages\KS-11.2.0\configuration\org.eclipse.osgi\151\0\.cp\resources\logback\logback-execution.xml
+2026-06-14 05:53:59.706 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\lenovo\Desktop\HABIBULLAH\20252026-2\SQA\Katalon\UTM-Go-Katalon-Testing\Include\config\log.properties
+2026-06-14 05:54:01.362 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Create Discussion Post
+2026-06-14 05:54:01.563 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = habibullah
+2026-06-14 05:54:01.564 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = UTM-Go-Katalon-Testing
+2026-06-14 05:54:01.566 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Handsome - LAPTOP-GUEJSDOP
+2026-06-14 05:54:01.568 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 10 64bit
+2026-06-14 05:54:01.570 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.56.1
+2026-06-14 05:54:01.571 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.2.0.0
+2026-06-14 05:54:01.863 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-14 05:54:01.864 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Community Module/Create Discussion Post Successfully
+2026-06-14 05:54:02.638 DEBUG t.Create Discussion Post Successfully    - 1: openBrowser(null)
+2026-06-14 05:54:03.294 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-14 05:54:03.394 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-14 05:54:06.706 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 47cf6f06c23e2124c38b06aedac6b1aa
+2026-06-14 05:54:06.708 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.114
+2026-06-14 05:54:06.710 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 10
+2026-06-14 05:54:06.711 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-14 05:54:06.719 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-14 05:54:06.798 DEBUG t.Create Discussion Post Successfully    - 2: navigateToUrl("https://utm-go.vercel.app/home")
+2026-06-14 05:54:07.611 DEBUG t.Create Discussion Post Successfully    - 3: setText(findTestObject("Community Module/Page_UTMGo/input_yougraduate.utm.my"), "habibullah@graduate.utm.my")
+2026-06-14 05:54:08.781 DEBUG t.Create Discussion Post Successfully    - 4: setEncryptedText(findTestObject("Community Module/Page_UTMGo/input_Enter your password"), "f7IgQFd4qQo=")
+2026-06-14 05:54:09.273 DEBUG t.Create Discussion Post Successfully    - 5: sendKeys(findTestObject("Community Module/Page_UTMGo/input_Enter your password"), Keys.chord(ENTER))
+2026-06-14 05:54:09.658 DEBUG t.Create Discussion Post Successfully    - 6: click(findTestObject("Community Module/Page_UTMGo/button_Sign In"))
+2026-06-14 05:54:10.084 DEBUG t.Create Discussion Post Successfully    - 7: click(findTestObject("Community Module/Page_UTMGo/button_Community"))
+2026-06-14 05:54:11.677 DEBUG t.Create Discussion Post Successfully    - 8: click(findTestObject("Community Module/Page_UTMGo/button_DiscussionJoin community conversations"))
+2026-06-14 05:54:13.034 DEBUG t.Create Discussion Post Successfully    - 9: click(findTestObject("Community Module/Page_UTMGo/svg_lucide lucide-plus w-5 h-5"))
+2026-06-14 05:54:13.442 DEBUG t.Create Discussion Post Successfully    - 10: setText(findTestObject("Community Module/Page_UTMGo/input_What would you like to discuss"), "Test")
+2026-06-14 05:54:23.770 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+> Remove hidden elements: 25,108 -> 6,088 (-76.03%)
+> Remove next siblings: 6,088 -> 6,088 (-0%)
+> Remove redundant parents: 6,088 -> 6,088 (-0%)
+> Remove event handler attributes: 6,088 -> 6,088 (-0%)
+> Trim long attributes: 6,088 -> 3,854 (-8.93%)
+> Trim long text: 3,854 -> 3,833 (-0.08%)
+> Minify HTML syntax: 3,833 -> 3,551 (-1.13%)
+>>> Total: 25,017 -> 3,833 (-84.68%)
