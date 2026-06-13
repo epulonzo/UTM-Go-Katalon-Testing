@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the system enforces the entry of a reason when rejecting.</description>
+   <name>Reject Without Reason</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4591110f-7daa-472d-a696-4a8b78279b4c</testCaseGuid>
+</TestCaseEntity>
