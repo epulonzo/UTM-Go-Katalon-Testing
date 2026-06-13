@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify successful recording with all valid data</description>
+   <name>Successful Activity Registration</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8fe0cf4c-3b82-472b-ae83-7f3db402d84f</testCaseGuid>
+</TestCaseEntity>
