@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that confirming a booking generates a unique Reference ID and 6-digit Check-In Code and saves the booking as Confirmed.</description>
+   <name>Confirm facility booking and receive reference ID and check-in code</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6a2b46de-ff1f-4827-9776-6fe8b5803c85</testCaseGuid>
+</TestCaseEntity>

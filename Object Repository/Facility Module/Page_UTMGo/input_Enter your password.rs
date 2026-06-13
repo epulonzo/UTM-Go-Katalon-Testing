@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Enter your password</name>
+   <tag></tag>
+   <elementGuidId>cfe1cabf-a720-4d5a-9d49-e7b50393752e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'password']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'password' and @placeholder = 'Enter your password' and @type = 'password']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#password</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Enter your password&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>210461bf-f229-4130-a7f6-ecf26ad91425</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-slot</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>810762ba-50a1-4e57-9d9b-8bf476e6bc1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground dark:bg-input/30 border-input flex w-full min-w-0 rounded-md py-1 bg-input-background transition-[color,box-shadow] outline-none disabled:opacity-50 focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] h-12 px-4 pr-12 border text-[16px]</value>
+      <webElementGuid>56ef91c6-e97c-4808-a25f-2c0e770a8043</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>4b892a10-fd73-480d-9fcf-09ad54bb3fc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter your password</value>
+      <webElementGuid>da4f6bbd-3671-4b04-bdc1-db556c74095e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>current-password</value>
+      <webElementGuid>a6cf02d9-abc1-4237-b81c-1904cd4f0b00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>ffef169e-1bce-46b9-bb72-315dd9a65105</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9e9af563cb0d5d92f852b4749a4d17cd</value>
+      <webElementGuid>b5f80449-9a45-4f9c-be73-6ecdc9917811</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'password']</value>
+      <webElementGuid>71a655be-27ee-440b-baec-bb3789a76582</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'password']</value>
+      <webElementGuid>b3e859d0-cf49-440c-be4a-e311732e8d93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'password' and @placeholder = 'Enter your password' and @type = 'password']</value>
+      <webElementGuid>51f1e481-0a7a-4383-9e29-d2311f4e6cc1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

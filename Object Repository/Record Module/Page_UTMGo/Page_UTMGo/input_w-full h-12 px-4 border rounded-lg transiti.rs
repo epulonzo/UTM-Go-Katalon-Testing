@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_w-full h-12 px-4 border rounded-lg transiti</name>
+   <tag></tag>
+   <elementGuidId>3e0ab658-8eab-4eb5-b9b0-c71683bc3b7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@type = 'date']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[type=&quot;date&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>input[type=&quot;date&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>9dfa7825-8657-4f29-b2e8-e70d6f829f0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full h-12 px-4 border rounded-lg transition-colors</value>
+      <webElementGuid>f464ddfd-7017-46bc-a315-0d5cf14fa2c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>date</value>
+      <webElementGuid>fb0e3d2c-a0ea-4629-b593-5960237c12db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-ef2b29450d1d10368af6cdba612ece59</value>
+      <webElementGuid>30a4db38-04f1-4caf-9ef8-4c2c80404fdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@type = 'date']</value>
+      <webElementGuid>e87f8a66-7009-44b3-826b-1a943e2badd3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@type = 'date']</value>
+      <webElementGuid>372e485c-ede4-4155-8ca9-79753cb4a65c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'date']</value>
+      <webElementGuid>0de48043-0b52-4e3e-90a5-00da14d0b290</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

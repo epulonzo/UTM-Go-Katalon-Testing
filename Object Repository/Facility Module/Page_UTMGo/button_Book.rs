@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Book</name>
+   <tag></tag>
+   <elementGuidId>94026d94-c839-4040-995c-3233b1e17fdf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' h-full ') and contains(concat(' ', normalize-space(@class), ' '), ' flex-col ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and (position() = 3)]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.h-full.flex-col.justify-center:nth-child(3)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Book&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c43fcf88-b615-424a-b5b3-90d21bf56438</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex flex-col items-center justify-center flex-1 h-full gap-1</value>
+      <webElementGuid>f82ca32b-4cd1-46ab-b898-9aa42b98ba67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Book</value>
+      <webElementGuid>30df4d8a-1d1b-4e4b-94e7-9c9b6b17c61a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-e30d45c2a9720c44baeb40317dc1fcd0</value>
+      <webElementGuid>ab70f52c-a79e-43f9-814e-f0defca3731c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' h-full ') and contains(concat(' ', normalize-space(@class), ' '), ' flex-col ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and (position() = 3)]</value>
+      <webElementGuid>e96736d3-6e3b-4569-b8c6-ca31667ea09b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' h-full ') and contains(concat(' ', normalize-space(@class), ' '), ' flex-col ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and (position() = 3)]</value>
+      <webElementGuid>bfa7bd37-b46e-4de8-9e59-48f199ccae97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Book' or . = 'Book')]</value>
+      <webElementGuid>392dc45a-d69c-49a1-b815-c2311bd9bfc9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
