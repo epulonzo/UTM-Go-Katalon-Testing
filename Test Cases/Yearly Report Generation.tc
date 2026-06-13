@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that a student can successfully generate a yearly report.</description>
+   <name>Yearly Report Generation</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e2ec6ae-f3d5-4d67-8428-1c840a44bd66</testCaseGuid>
+</TestCaseEntity>
