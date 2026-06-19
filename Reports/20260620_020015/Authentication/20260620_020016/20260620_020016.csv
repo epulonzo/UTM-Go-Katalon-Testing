@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Authentication,Chrome 149.0.7827.155,,,20-06-2026 02:01:08,20-06-2026 02:02:08,1m - 0.458s,PASSED
+,,,,,,,
+Test Cases/Invalid Credentials,Chrome 149.0.7827.155,,,20-06-2026 02:01:08,20-06-2026 02:01:14,6.154s,PASSED
+openBrowser(null),Chrome 149.0.7827.155,,,20-06-2026 02:01:09,20-06-2026 02:01:12,3.161s,PASSED
+"navigateToUrl(""https://utm-go.vercel.app/"")",Chrome 149.0.7827.155,,,20-06-2026 02:01:12,20-06-2026 02:01:13,0.758s,PASSED
+"setText(findTestObject(""Auth Module/Page_UTMGo/input_yougraduate.utm.my""), ""saifulaqil@gmail.com"")",Chrome 149.0.7827.155,,,20-06-2026 02:01:13,20-06-2026 02:01:14,1.019s,PASSED
+"setEncryptedText(findTestObject(""Auth Module/Page_UTMGo/input_Enter your password""), ""o+8PBXcU+OE4jwHGL8AxtA=="")",Chrome 149.0.7827.155,,,20-06-2026 02:01:14,20-06-2026 02:01:14,0.420s,PASSED
+"click(findTestObject(""Auth Module/Page_UTMGo/button_Sign In""))",Chrome 149.0.7827.155,,,20-06-2026 02:01:14,20-06-2026 02:01:14,0.434s,PASSED
+,,,,,,,
+Test Cases/Successful Login,Chrome 149.0.7827.155,,,20-06-2026 02:01:14,20-06-2026 02:01:18,3.637s,PASSED
+openBrowser(null),Chrome 149.0.7827.155,,,20-06-2026 02:01:15,20-06-2026 02:01:16,1.166s,PASSED
+"navigateToUrl(""https://utm-go.vercel.app/"")",Chrome 149.0.7827.155,,,20-06-2026 02:01:16,20-06-2026 02:01:16,0.690s,PASSED
+"setText(findTestObject(""Auth Module/Page_UTMGo/input_yougraduate.utm.my""), ""saifulaqil@graduate.utm.my"")",Chrome 149.0.7827.155,,,20-06-2026 02:01:16,20-06-2026 02:01:17,0.922s,PASSED
+"setEncryptedText(findTestObject(""Auth Module/Page_UTMGo/input_Enter your password""), ""o+8PBXcU+OE4jwHGL8AxtA=="")",Chrome 149.0.7827.155,,,20-06-2026 02:01:17,20-06-2026 02:01:18,0.390s,PASSED
+"click(findTestObject(""Auth Module/Page_UTMGo/button_Sign In""))",Chrome 149.0.7827.155,,,20-06-2026 02:01:18,20-06-2026 02:01:18,0.366s,PASSED
+,,,,,,,
+Test Cases/Successful Registration,Chrome 149.0.7827.155,,,20-06-2026 02:01:18,20-06-2026 02:02:08,50.154s,PASSED
+openBrowser(null),Chrome 149.0.7827.155,,,20-06-2026 02:01:18,20-06-2026 02:01:19,1.148s,PASSED
+"navigateToUrl(""https://utm-go.vercel.app/"")",Chrome 149.0.7827.155,,,20-06-2026 02:01:19,20-06-2026 02:01:20,0.663s,PASSED
+"click(findTestObject(""Auth Module/Page_UTMGo/button_Register""))",Chrome 149.0.7827.155,,,20-06-2026 02:01:20,20-06-2026 02:01:21,0.560s,PASSED
+"setText(findTestObject(""Auth Module/Page_UTMGo/input_Enter your full name""), ""Saiful Aqil"")",Chrome 149.0.7827.155,,,20-06-2026 02:01:21,20-06-2026 02:01:22,1.007s,PASSED
+"setText(findTestObject(""Auth Module/Page_UTMGo/input_Enter your student ID""), ""A23CS0266"")",Chrome 149.0.7827.155,,,20-06-2026 02:01:22,20-06-2026 02:01:22,0.816s,PASSED
+"setText(findTestObject(""Auth Module/Page_UTMGo/input_yougraduate.utm.my""), ""saifulaqil@graduate.utm.my"")",Chrome 149.0.7827.155,,,20-06-2026 02:01:22,20-06-2026 02:02:07,44.529s,PASSED
+"setEncryptedText(findTestObject(""Auth Module/Page_UTMGo/input_Create a password""), ""o+8PBXcU+OE4jwHGL8AxtA=="")",Chrome 149.0.7827.155,,,20-06-2026 02:02:07,20-06-2026 02:02:07,0.506s,PASSED
+"setEncryptedText(findTestObject(""Auth Module/Page_UTMGo/input_Re-enter password""), ""o+8PBXcU+OE4jwHGL8AxtA=="")",Chrome 149.0.7827.155,,,20-06-2026 02:02:07,20-06-2026 02:02:08,0.457s,PASSED
+"click(findTestObject(""Auth Module/Page_UTMGo/button_Register_1""))",Chrome 149.0.7827.155,,,20-06-2026 02:02:08,20-06-2026 02:02:08,0.376s,PASSED

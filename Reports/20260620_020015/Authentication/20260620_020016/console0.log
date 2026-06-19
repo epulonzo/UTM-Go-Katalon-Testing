@@ -1,0 +1,84 @@
+2026-06-20 02:01:07.518 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\saifu\.katalon\packages\KS-11.2.0\configuration\org.eclipse.osgi\151\0\.cp\resources\logback\logback-execution.xml
+2026-06-20 02:01:07.521 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\saifu\git\UTM-Go-Katalon-Testing\Include\config\log.properties
+2026-06-20 02:01:08.384 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Authentication
+2026-06-20 02:01:08.537 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = saiful aqil
+2026-06-20 02:01:08.538 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = UTM-Go-Katalon-Testing
+2026-06-20 02:01:08.538 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = saifu - EPULONZO
+2026-06-20 02:01:08.539 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-06-20 02:01:08.540 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 10.213.97.165
+2026-06-20 02:01:08.541 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.2.0.0
+2026-06-20 02:01:08.739 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-20 02:01:08.739 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Invalid Credentials
+2026-06-20 02:01:09.094 DEBUG testcase.Invalid Credentials             - 1: openBrowser(null)
+2026-06-20 02:01:09.520 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-20 02:01:09.570 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-20 02:01:12.189 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3e363385dce0328d8d533760d6fe3a18
+2026-06-20 02:01:12.190 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.155
+2026-06-20 02:01:12.192 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-20 02:01:12.193 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-20 02:01:12.198 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-20 02:01:12.256 DEBUG testcase.Invalid Credentials             - 2: navigateToUrl("https://utm-go.vercel.app/")
+2026-06-20 02:01:13.014 DEBUG testcase.Invalid Credentials             - 3: setText(findTestObject("Auth Module/Page_UTMGo/input_yougraduate.utm.my"), "saifulaqil@gmail.com")
+2026-06-20 02:01:14.034 DEBUG testcase.Invalid Credentials             - 4: setEncryptedText(findTestObject("Auth Module/Page_UTMGo/input_Enter your password"), "o+8PBXcU+OE4jwHGL8AxtA==")
+2026-06-20 02:01:14.454 DEBUG testcase.Invalid Credentials             - 5: click(findTestObject("Auth Module/Page_UTMGo/button_Sign In"))
+2026-06-20 02:01:14.892 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Invalid Credentials
+2026-06-20 02:01:14.918 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-20 02:01:14.919 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Successful Login
+2026-06-20 02:01:15.014 DEBUG testcase.Successful Login                - 1: openBrowser(null)
+2026-06-20 02:01:15.018 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-20 02:01:15.195 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-20 02:01:15.198 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-20 02:01:16.152 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = af840a0b181e6fcd8f35ed2071d1f70b
+2026-06-20 02:01:16.153 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.155
+2026-06-20 02:01:16.154 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-20 02:01:16.155 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-20 02:01:16.156 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-20 02:01:16.180 DEBUG testcase.Successful Login                - 2: navigateToUrl("https://utm-go.vercel.app/")
+2026-06-20 02:01:16.871 DEBUG testcase.Successful Login                - 3: setText(findTestObject("Auth Module/Page_UTMGo/input_yougraduate.utm.my"), "saifulaqil@graduate.utm.my")
+2026-06-20 02:01:17.794 DEBUG testcase.Successful Login                - 4: setEncryptedText(findTestObject("Auth Module/Page_UTMGo/input_Enter your password"), "o+8PBXcU+OE4jwHGL8AxtA==")
+2026-06-20 02:01:18.183 DEBUG testcase.Successful Login                - 5: click(findTestObject("Auth Module/Page_UTMGo/button_Sign In"))
+2026-06-20 02:01:18.555 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Successful Login
+2026-06-20 02:01:18.585 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-06-20 02:01:18.586 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Successful Registration
+2026-06-20 02:01:18.673 DEBUG testcase.Successful Registration         - 1: openBrowser(null)
+2026-06-20 02:01:18.677 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-06-20 02:01:18.811 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-06-20 02:01:18.814 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-06-20 02:01:19.794 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ecb05dad8a303a0827e065838ef19dab
+2026-06-20 02:01:19.795 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 149.0.7827.155
+2026-06-20 02:01:19.796 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-06-20 02:01:19.797 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-06-20 02:01:19.797 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-06-20 02:01:19.821 DEBUG testcase.Successful Registration         - 2: navigateToUrl("https://utm-go.vercel.app/")
+2026-06-20 02:01:20.484 DEBUG testcase.Successful Registration         - 3: click(findTestObject("Auth Module/Page_UTMGo/button_Register"))
+2026-06-20 02:01:21.045 DEBUG testcase.Successful Registration         - 4: setText(findTestObject("Auth Module/Page_UTMGo/input_Enter your full name"), "Saiful Aqil")
+2026-06-20 02:01:22.054 DEBUG testcase.Successful Registration         - 5: setText(findTestObject("Auth Module/Page_UTMGo/input_Enter your student ID"), "A23CS0266")
+2026-06-20 02:01:22.870 DEBUG testcase.Successful Registration         - 6: setText(findTestObject("Auth Module/Page_UTMGo/input_yougraduate.utm.my"), "saifulaqil@graduate.utm.my")
+2026-06-20 02:01:33.155 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+> Remove hidden elements: 20,053 -> 3,893 (-81.02%)
+> Remove next siblings: 3,893 -> 3,893 (-0%)
+> Remove redundant parents: 3,893 -> 3,893 (-0%)
+> Remove event handler attributes: 3,893 -> 3,893 (-0%)
+> Trim long attributes: 3,893 -> 2,691 (-6.03%)
+> Trim long text: 2,691 -> 2,670 (-0.11%)
+> Minify HTML syntax: 2,670 -> 2,439 (-1.16%)
+>>> Total: 19,946 -> 2,670 (-86.61%)
+2026-06-20 02:01:56.037 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] Found "3" possible locators:\n [\n  {\n    "type": "CSS",\n    "value": "input[placeholder\u003d\"you@graduate.utm.my\"][type\u003d\"email\"]",\n    "semanticLocator": "Email address input (placeholder you@graduate.utm.my)",\n    "confidence": 0.9,\n    "reason": "Matched placeholder\u003d\u0027you@graduate.utm.my\u0027, type\u003d\u0027email\u0027 and tag\u003d\u0027input\u0027 from the broken test object; the page contains an input with the exact placeholder and type."\n  },\n  {\n    "type": "XPATH",\n    "value": "//label[normalize-space(.)\u003d\u0027Email Address\u0027]/following-sibling::input[@type\u003d\u0027email\u0027][1]",\n    "semanticLocator": "Email input following label \u0027Email Address\u0027",\n    "confidence": 0.85,\n    "reason": "Matched tag\u003d\u0027input\u0027 and type\u003d\u0027email\u0027 (from broken object) and the same placeholder was found on this input in the DOM; located as the input following the label \u0027Email Address\u0027."\n  },\n  {\n    "type": "CSS",\n    "value": "input[type\u003d\"email\"]",\n    "semanticLocator": "Email input (type\u003demail)",\n    "confidence": 0.6,\n    "reason": "Matched type\u003d\u0027email\u0027 and tag\u003d\u0027input\u0027 from the broken test object; this selector uniquely matches the single email input on the provided page source."\n  }\n]
+2026-06-20 02:01:56.038 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] Verifying locator: "input[placeholder="you@graduate.utm.my"][type="email"]"
+2026-06-20 02:01:56.299 INFO  c.k.s.e.healers.SelfHealingPipeline      - [AI Self-Healing] Found valid locator: "input[placeholder="you@graduate.utm.my"][type="email"]"
+2026-06-20 02:01:56.731 INFO  c.k.k.c.w.c.i.SelfHealingController      - [AI Self-Healing] Screenshot: C:/Users/saifu/git/UTM-Go-Katalon-Testing/Reports/Self-healing/Object Repository/Auth Module/Page_UTMGo/input_yougraduate.utm.my_XPATH.png
+2026-06-20 02:01:56.769 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-06-20 02:02:07.258 WARN  c.k.k.c.w.c.i.SelfHealingController      - [AI Self-Healing] The current locator of test object 'Object Repository/Auth Module/Page_UTMGo/input_yougraduate.utm.my' was broken. Propose an alternative one: '//input[@value='']'.
+2026-06-20 02:02:07.274 WARN  c.k.k.c.w.k.builtin.SetTextKeyword       - Waiting for element timed out
+2026-06-20 02:02:07.399 DEBUG testcase.Successful Registration         - 7: setEncryptedText(findTestObject("Auth Module/Page_UTMGo/input_Create a password"), "o+8PBXcU+OE4jwHGL8AxtA==")
+2026-06-20 02:02:07.904 DEBUG testcase.Successful Registration         - 8: setEncryptedText(findTestObject("Auth Module/Page_UTMGo/input_Re-enter password"), "o+8PBXcU+OE4jwHGL8AxtA==")
+2026-06-20 02:02:08.361 DEBUG testcase.Successful Registration         - 9: click(findTestObject("Auth Module/Page_UTMGo/button_Register_1"))
+2026-06-20 02:02:08.740 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Successful Registration
+2026-06-20 02:02:08.741 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2026-06-20 02:02:08.741 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2026-06-20 02:02:08.742 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2026-06-20 02:02:08.742 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2026-06-20 02:02:08.742 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2026-06-20 02:02:08.977 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-06-20 02:02:08.977 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Authentication
+2026-06-20 02:02:08.977 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

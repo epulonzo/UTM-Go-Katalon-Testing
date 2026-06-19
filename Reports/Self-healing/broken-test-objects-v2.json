@@ -19,6 +19,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Record Module/Page_UTMGo/path_path_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Auth Module/Page_UTMGo/input_yougraduate.utm.my",
+      "brokenLocator": "//*[@id \u003d \u0027email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@value\u003d\u0027\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Auth Module/Page_UTMGo/input_yougraduate.utm.my_XPATH.png"
     }
   ]
 }

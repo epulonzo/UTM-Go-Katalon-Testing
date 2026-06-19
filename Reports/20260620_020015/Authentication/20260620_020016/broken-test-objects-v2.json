@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Auth Module/Page_UTMGo/input_yougraduate.utm.my",
+      "brokenLocator": "//*[@id \u003d \u0027email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@value\u003d\u0027\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20260620_020015/Authentication/20260620_020016/Object Repository/Auth Module/Page_UTMGo/input_yougraduate.utm.my_XPATH.png"
+    }
+  ]
+}

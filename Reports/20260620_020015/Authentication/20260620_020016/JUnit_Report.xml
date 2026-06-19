@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Authentication" time="60.22" tests="3" passed="3" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Authentication" tests="3" passed="3" failures="0" errors="0" incompleted="0" skipped="0" time="60.22" timestamp="2026-06-19T18:01:08.520Z" hostname="saifu - EPULONZO" id="Test Suites/Authentication" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\saifu\\git\\UTM-Go-Katalon-Testing\\Reports\\20260620_020015\\Authentication\\20260620_020016"/>
+         <property name="logFiles" value="C:\\Users\\saifu\\git\\UTM-Go-Katalon-Testing\\Reports\\20260620_020015\\Authentication\\20260620_020016\\console0.log, C:\\Users\\saifu\\git\\UTM-Go-Katalon-Testing\\Reports\\20260620_020015\\Authentication\\20260620_020016\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="saifu - EPULONZO"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.2.0.0"/>
+         <property name="browser" value="Chrome 149.0.7827.155"/>
+         <property name="userFullName" value="saiful aqil"/>
+         <property name="hostAddress" value="10.213.97.165"/>
+         <property name="sessionId" value="ecb05dad8a303a0827e065838ef19dab"/>
+         <property name="projectName" value="UTM-Go-Katalon-Testing"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Invalid Credentials" time="6.154" classname="Test Cases/Invalid Credentials" status="PASSED">
+         <system-out><![CDATA[20-06-2026T02:01:08 - [TEST_CASE][PASSED] - Test Cases/Invalid Credentials: Test Cases/Invalid Credentials
+
+20-06-2026T02:01:09 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+20-06-2026T02:01:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-06-2026T02:01:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-06-2026T02:01:12 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+20-06-2026T02:01:12 - [TEST_STEP][PASSED] - navigateToUrl("https://utm-go.vercel.app/"): Navigate to 'https://utm-go.vercel.app/' successfully
+
+20-06-2026T02:01:13 - [MESSAGE][PASSED] - Navigate to 'https://utm-go.vercel.app/' successfully
+
+20-06-2026T02:01:13 - [TEST_STEP][PASSED] - setText(findTestObject("Auth Module/Page_UTMGo/input_yougraduate.utm.my"), "saifulaqil@gmail.com"): Text 'saifulaqil@gmail.com' is set on object 'Object Repository/Auth Module/Page_UTMGo/input_yougraduate.utm.my'
+
+20-06-2026T02:01:14 - [MESSAGE][PASSED] - Text 'saifulaqil@gmail.com' is set on object 'Object Repository/Auth Module/Page_UTMGo/input_yougraduate.utm.my'
+
+20-06-2026T02:01:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Auth Module/Page_UTMGo/input_Enter your password"), "o+8PBXcU+OE4jwHGL8AxtA=="): Text ****** has been set on object 'Object Repository/Auth Module/Page_UTMGo/input_Enter your password'
+
+20-06-2026T02:01:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Auth Module/Page_UTMGo/input_Enter your password'
+
+20-06-2026T02:01:14 - [TEST_STEP][PASSED] - click(findTestObject("Auth Module/Page_UTMGo/button_Sign In")): Object: 'Object Repository/Auth Module/Page_UTMGo/button_Sign In' is clicked on
+
+20-06-2026T02:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth Module/Page_UTMGo/button_Sign In' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Successful Login" time="3.637" classname="Test Cases/Successful Login" status="PASSED">
+         <system-out><![CDATA[20-06-2026T02:01:14 - [TEST_CASE][PASSED] - Test Cases/Successful Login: Test Cases/Successful Login
+
+20-06-2026T02:01:15 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+20-06-2026T02:01:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+20-06-2026T02:01:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-06-2026T02:01:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-06-2026T02:01:16 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+20-06-2026T02:01:16 - [TEST_STEP][PASSED] - navigateToUrl("https://utm-go.vercel.app/"): Navigate to 'https://utm-go.vercel.app/' successfully
+
+20-06-2026T02:01:16 - [MESSAGE][PASSED] - Navigate to 'https://utm-go.vercel.app/' successfully
+
+20-06-2026T02:01:16 - [TEST_STEP][PASSED] - setText(findTestObject("Auth Module/Page_UTMGo/input_yougraduate.utm.my"), "saifulaqil@graduate.utm.my"): Text 'saifulaqil@graduate.utm.my' is set on object 'Object Repository/Auth Module/Page_UTMGo/input_yougraduate.utm.my'
+
+20-06-2026T02:01:17 - [MESSAGE][PASSED] - Text 'saifulaqil@graduate.utm.my' is set on object 'Object Repository/Auth Module/Page_UTMGo/input_yougraduate.utm.my'
+
+20-06-2026T02:01:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Auth Module/Page_UTMGo/input_Enter your password"), "o+8PBXcU+OE4jwHGL8AxtA=="): Text ****** has been set on object 'Object Repository/Auth Module/Page_UTMGo/input_Enter your password'
+
+20-06-2026T02:01:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Auth Module/Page_UTMGo/input_Enter your password'
+
+20-06-2026T02:01:18 - [TEST_STEP][PASSED] - click(findTestObject("Auth Module/Page_UTMGo/button_Sign In")): Object: 'Object Repository/Auth Module/Page_UTMGo/button_Sign In' is clicked on
+
+20-06-2026T02:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth Module/Page_UTMGo/button_Sign In' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Successful Registration" time="50.154" classname="Test Cases/Successful Registration" status="PASSED">
+         <system-out><![CDATA[20-06-2026T02:01:18 - [TEST_CASE][PASSED] - Test Cases/Successful Registration: Test Cases/Successful Registration
+
+20-06-2026T02:01:18 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+20-06-2026T02:01:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+20-06-2026T02:01:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+20-06-2026T02:01:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+20-06-2026T02:01:19 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+20-06-2026T02:01:19 - [TEST_STEP][PASSED] - navigateToUrl("https://utm-go.vercel.app/"): Navigate to 'https://utm-go.vercel.app/' successfully
+
+20-06-2026T02:01:20 - [MESSAGE][PASSED] - Navigate to 'https://utm-go.vercel.app/' successfully
+
+20-06-2026T02:01:20 - [TEST_STEP][PASSED] - click(findTestObject("Auth Module/Page_UTMGo/button_Register")): Object: 'Object Repository/Auth Module/Page_UTMGo/button_Register' is clicked on
+
+20-06-2026T02:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth Module/Page_UTMGo/button_Register' is clicked on
+
+20-06-2026T02:01:21 - [TEST_STEP][PASSED] - setText(findTestObject("Auth Module/Page_UTMGo/input_Enter your full name"), "Saiful Aqil"): Text 'Saiful Aqil' is set on object 'Object Repository/Auth Module/Page_UTMGo/input_Enter your full name'
+
+20-06-2026T02:01:22 - [MESSAGE][PASSED] - Text 'Saiful Aqil' is set on object 'Object Repository/Auth Module/Page_UTMGo/input_Enter your full name'
+
+20-06-2026T02:01:22 - [TEST_STEP][PASSED] - setText(findTestObject("Auth Module/Page_UTMGo/input_Enter your student ID"), "A23CS0266"): Text 'A23CS0266' is set on object 'Object Repository/Auth Module/Page_UTMGo/input_Enter your student ID'
+
+20-06-2026T02:01:22 - [MESSAGE][PASSED] - Text 'A23CS0266' is set on object 'Object Repository/Auth Module/Page_UTMGo/input_Enter your student ID'
+
+20-06-2026T02:01:22 - [TEST_STEP][PASSED] - setText(findTestObject("Auth Module/Page_UTMGo/input_yougraduate.utm.my"), "saifulaqil@graduate.utm.my"): Text 'saifulaqil@graduate.utm.my' is set on object 'Object Repository/Auth Module/Page_UTMGo/input_yougraduate.utm.my'
+
+20-06-2026T02:01:33 - [MESSAGE][INFO] - [AI Self-Healing] Recovering element locator by using AI Self-Healing...
+
+20-06-2026T02:01:56 - [MESSAGE][INFO] - [AI Self-Healing] Found "3" possible locators:
+ [
+  {
+    "type": "CSS",
+    "value": "input[placeholder\u003d\"you@graduate.utm.my\"][type\u003d\"email\"]",
+    "semanticLocator": "Email address input (placeholder you@graduate.utm.my)",
+    "confidence": 0.9,
+    "reason": "Matched placeholder\u003d\u0027you@graduate.utm.my\u0027, type\u003d\u0027email\u0027 and tag\u003d\u0027input\u0027 from the broken test object; the page contains an input with the exact placeholder and type."
+  },
+  {
+    "type": "XPATH",
+    "value": "//label[normalize-space(.)\u003d\u0027Email Address\u0027]/following-sibling::input[@type\u003d\u0027email\u0027][1]",
+    "semanticLocator": "Email input following label \u0027Email Address\u0027",
+    "confidence": 0.85,
+    "reason": "Matched tag\u003d\u0027input\u0027 and type\u003d\u0027email\u0027 (from broken object) and the same placeholder was found on this input in the DOM; located as the input following the label \u0027Email Address\u0027."
+  },
+  {
+    "type": "CSS",
+    "value": "input[type\u003d\"email\"]",
+    "semanticLocator": "Email input (type\u003demail)",
+    "confidence": 0.6,
+    "reason": "Matched type\u003d\u0027email\u0027 and tag\u003d\u0027input\u0027 from the broken test object; this selector uniquely matches the single email input on the provided page source."
+  }
+]
+
+20-06-2026T02:01:56 - [MESSAGE][INFO] - [AI Self-Healing] Verifying locator: "input[placeholder="you@graduate.utm.my"][type="email"]"
+
+20-06-2026T02:01:56 - [MESSAGE][INFO] - [AI Self-Healing] Found valid locator: "input[placeholder="you@graduate.utm.my"][type="email"]"
+
+20-06-2026T02:01:56 - [MESSAGE][INFO] - [AI Self-Healing] Screenshot: C:/Users/saifu/git/UTM-Go-Katalon-Testing/Reports/Self-healing/Object Repository/Auth Module/Page_UTMGo/input_yougraduate.utm.my_XPATH.png
+
+20-06-2026T02:01:56 - [MESSAGE][WARNING] - Waiting for element timed out
+
+20-06-2026T02:02:07 - [MESSAGE][WARNING] - [AI Self-Healing] The current locator of test object 'Object Repository/Auth Module/Page_UTMGo/input_yougraduate.utm.my' was broken. Propose an alternative one: '//input[@value='']'.
+
+20-06-2026T02:02:07 - [MESSAGE][WARNING] - Waiting for element timed out
+
+20-06-2026T02:02:07 - [MESSAGE][PASSED] - Text 'saifulaqil@graduate.utm.my' is set on object 'Object Repository/Auth Module/Page_UTMGo/input_yougraduate.utm.my'
+
+20-06-2026T02:02:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Auth Module/Page_UTMGo/input_Create a password"), "o+8PBXcU+OE4jwHGL8AxtA=="): Text ****** has been set on object 'Object Repository/Auth Module/Page_UTMGo/input_Create a password'
+
+20-06-2026T02:02:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Auth Module/Page_UTMGo/input_Create a password'
+
+20-06-2026T02:02:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Auth Module/Page_UTMGo/input_Re-enter password"), "o+8PBXcU+OE4jwHGL8AxtA=="): Text ****** has been set on object 'Object Repository/Auth Module/Page_UTMGo/input_Re-enter password'
+
+20-06-2026T02:02:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Auth Module/Page_UTMGo/input_Re-enter password'
+
+20-06-2026T02:02:08 - [TEST_STEP][PASSED] - click(findTestObject("Auth Module/Page_UTMGo/button_Register_1")): Object: 'Object Repository/Auth Module/Page_UTMGo/button_Register_1' is clicked on
+
+20-06-2026T02:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Auth Module/Page_UTMGo/button_Register_1' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-06-2026T02:01:08 - [TEST_SUITE][PASSED] - Authentication: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
