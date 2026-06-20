@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifies that a user can successfully update specific fields of a previously saved activity and that the changes are correctly reflected.</description>
+   <name>Successful Detail Update</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>93e61616-6595-4d8f-b36e-4d413e6dfb6a</testCaseGuid>
+</TestCaseEntity>

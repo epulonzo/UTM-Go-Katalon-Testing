@@ -2,6 +2,7 @@
   "brokenTestObjects": [
     {
       "approved": true,
+<<<<<<< HEAD
       "testObjectId": "Object Repository/Generate Activity Summary Report/Page_UTMGo/button_Report",
       "brokenLocator": "//*[@class and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 rounded-lg \u0027) and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 transition-colors \u0027) and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 text-center \u0027) and (position() \u003d 3)]",
       "brokenLocatorMethod": "XPATH",
@@ -29,6 +30,35 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Verify Recorded Activity/Page_UTMGo/select_PendingValidatedRejected_XPATH.png"
+=======
+      "testObjectId": "Object Repository/Record Module/Page_UTMGo/button_OK",
+      "brokenLocator": "//*[@class and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 shadow-lg \u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/main/div/div/div/div[3]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Record Module/Page_UTMGo/button_OK_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Record Module/Page_UTMGo/path_path",
+      "brokenLocator": "//*[@class and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 lucide-pen \u0027)]//path",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type\u003d\u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Record Module/Page_UTMGo/path_path_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Auth Module/Page_UTMGo/input_yougraduate.utm.my",
+      "brokenLocator": "//*[@id \u003d \u0027email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@value\u003d\u0027\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Auth Module/Page_UTMGo/input_yougraduate.utm.my_XPATH.png"
+>>>>>>> branch 'main' of https://github.com/epulonzo/UTM-Go-Katalon-Testing
     }
   ]
 }

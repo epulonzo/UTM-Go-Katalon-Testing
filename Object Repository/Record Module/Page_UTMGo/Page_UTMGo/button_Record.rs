@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Record</name>
+   <tag></tag>
+   <elementGuidId>c1d0c0d3-15b6-48df-ad6e-5a6ef0b22929</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.rounded-lg.font-bold.text-white.justify-center</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Record&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8ba7fa22-3f29-42b1-8802-ebc124fa9441</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex-1 h-10 rounded-lg text-white font-bold flex items-center justify-center gap-2</value>
+      <webElementGuid>3aaadbff-5c0d-4c4d-8025-b0b900f2ba0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Record</value>
+      <webElementGuid>0cd6dca6-9300-410b-9237-2f3161c4f0b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-7938703868c96c69dc9a13756f6b625d</value>
+      <webElementGuid>30b47a44-6f86-4c4a-9119-97ee221bf93d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ')]</value>
+      <webElementGuid>4d7664e7-bd7e-4742-aade-a5f78ce98bdd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' font-bold ') and contains(concat(' ', normalize-space(@class), ' '), ' text-white ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ')]</value>
+      <webElementGuid>76707d7b-8cf7-4c7b-88a2-d661ed7b34cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Record' or . = ' Record')]</value>
+      <webElementGuid>f1fd73fa-f4fc-461c-9ee3-b444522bef28</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

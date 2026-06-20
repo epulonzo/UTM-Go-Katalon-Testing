@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checks that the system prevents submission and displays an appropriate error message when a required field, such as &quot;Activity Name,&quot; is left blank.</description>
+   <name>Missing Mandatory Field</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>93aef47b-f2ab-4e4e-be3b-bf5e06a8ef92</testCaseGuid>
+</TestCaseEntity>

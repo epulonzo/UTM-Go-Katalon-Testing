@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Comment on Sports Discussions" time="12.833" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0">
+   <testsuite name="Comment on Sports Discussions" tests="1" passed="1" failures="0" errors="0" incompleted="0" skipped="0" time="12.833" timestamp="2026-06-13T21:58:38.302Z" hostname="Handsome - LAPTOP-GUEJSDOP" id="Test Suites/Comment on Sports Discussions" status="PASSED">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\lenovo\\Desktop\\HABIBULLAH\\20252026-2\\SQA\\Katalon\\UTM-Go-Katalon-Testing\\Reports\\20260614_055828\\Comment on Sports Discussions\\20260614_055828"/>
+         <property name="logFiles" value="C:\\Users\\lenovo\\Desktop\\HABIBULLAH\\20252026-2\\SQA\\Katalon\\UTM-Go-Katalon-Testing\\Reports\\20260614_055828\\Comment on Sports Discussions\\20260614_055828\\console0.log, C:\\Users\\lenovo\\Desktop\\HABIBULLAH\\20252026-2\\SQA\\Katalon\\UTM-Go-Katalon-Testing\\Reports\\20260614_055828\\Comment on Sports Discussions\\20260614_055828\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="Handsome - LAPTOP-GUEJSDOP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="11.2.0.0"/>
+         <property name="browser" value="Chrome 149.0.7827.114"/>
+         <property name="userFullName" value="habibullah"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="1effb556f22b7507a96d96ce7526a80c"/>
+         <property name="projectName" value="UTM-Go-Katalon-Testing"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Community Module/Submit Comment Successfully" time="12.526" classname="Test Cases/Community Module/Submit Comment Successfully" status="PASSED">
+         <system-out><![CDATA[14-06-2026T05:58:38 - [TEST_CASE][PASSED] - Test Cases/Community Module/Submit Comment Successfully: Test Cases/Community Module/Submit Comment Successfully
+
+14-06-2026T05:58:39 - [TEST_STEP][PASSED] - openBrowser(null): Browser is opened with url: 'null'
+
+14-06-2026T05:58:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+14-06-2026T05:58:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+14-06-2026T05:58:43 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+14-06-2026T05:58:43 - [TEST_STEP][PASSED] - navigateToUrl("https://utm-go.vercel.app/home"): Navigate to 'https://utm-go.vercel.app/home' successfully
+
+14-06-2026T05:58:43 - [MESSAGE][PASSED] - Navigate to 'https://utm-go.vercel.app/home' successfully
+
+14-06-2026T05:58:43 - [TEST_STEP][PASSED] - setText(findTestObject("Facility Module/Page_UTMGo/input_yougraduate.utm.my"), "habibullah@graduate.utm.my"): Text 'habibullah@graduate.utm.my' is set on object 'Object Repository/Facility Module/Page_UTMGo/input_yougraduate.utm.my'
+
+14-06-2026T05:58:45 - [MESSAGE][PASSED] - Text 'habibullah@graduate.utm.my' is set on object 'Object Repository/Facility Module/Page_UTMGo/input_yougraduate.utm.my'
+
+14-06-2026T05:58:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Facility Module/Page_UTMGo/input_Enter your password"), "f7IgQFd4qQo="): Text ****** has been set on object 'Object Repository/Facility Module/Page_UTMGo/input_Enter your password'
+
+14-06-2026T05:58:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Facility Module/Page_UTMGo/input_Enter your password'
+
+14-06-2026T05:58:45 - [TEST_STEP][PASSED] - click(findTestObject("Facility Module/Page_UTMGo/button_Sign In")): Object: 'Object Repository/Facility Module/Page_UTMGo/button_Sign In' is clicked on
+
+14-06-2026T05:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Facility Module/Page_UTMGo/button_Sign In' is clicked on
+
+14-06-2026T05:58:45 - [TEST_STEP][PASSED] - click(findTestObject("Facility Module/Page_UTMGo/button_Community")): Object: 'Object Repository/Facility Module/Page_UTMGo/button_Community' is clicked on
+
+14-06-2026T05:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Facility Module/Page_UTMGo/button_Community' is clicked on
+
+14-06-2026T05:58:47 - [TEST_STEP][PASSED] - click(findTestObject("Facility Module/Page_UTMGo/button_DiscussionJoin community conversations")): Object: 'Object Repository/Facility Module/Page_UTMGo/button_DiscussionJoin community conversations' is clicked on
+
+14-06-2026T05:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Facility Module/Page_UTMGo/button_DiscussionJoin community conversations' is clicked on
+
+14-06-2026T05:58:47 - [TEST_STEP][PASSED] - click(findTestObject("Facility Module/Page_UTMGo/div_mmuhammad habibullah6_13_2026, 9_37_58 PMTes")): Object: 'Object Repository/Facility Module/Page_UTMGo/div_mmuhammad habibullah6_13_2026, 9_37_58 PMTes' is clicked on
+
+14-06-2026T05:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Facility Module/Page_UTMGo/div_mmuhammad habibullah6_13_2026, 9_37_58 PMTes' is clicked on
+
+14-06-2026T05:58:48 - [TEST_STEP][PASSED] - setText(findTestObject("Facility Module/Page_UTMGo/input_Write a comment"), "Test Comment"): Text 'Test Comment' is set on object 'Object Repository/Facility Module/Page_UTMGo/input_Write a comment'
+
+14-06-2026T05:58:50 - [MESSAGE][PASSED] - Text 'Test Comment' is set on object 'Object Repository/Facility Module/Page_UTMGo/input_Write a comment'
+
+14-06-2026T05:58:50 - [TEST_STEP][PASSED] - click(findTestObject("Facility Module/Page_UTMGo/button_Send")): Object: 'Object Repository/Facility Module/Page_UTMGo/button_Send' is clicked on
+
+14-06-2026T05:58:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Facility Module/Page_UTMGo/button_Send' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-06-2026T05:58:38 - [TEST_SUITE][PASSED] - Comment on Sports Discussions: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

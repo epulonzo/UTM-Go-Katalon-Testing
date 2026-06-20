@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that the system prevents submission and shows validation errors when required fields are left empty.</description>
+   <name>Submit complaint fails, missing required fields</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8daa5406-0301-4ca6-b812-ac4c254a8c7e</testCaseGuid>
+</TestCaseEntity>

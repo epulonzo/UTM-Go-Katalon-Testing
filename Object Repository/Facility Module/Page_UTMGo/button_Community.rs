@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Community</name>
+   <tag></tag>
+   <elementGuidId>200d9773-ac15-4cfc-88e5-84a183dd9e74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-all ') and contains(concat(' ', normalize-space(@class), ' '), ' items-center ') and (name() = 'button') and (position() = 2)]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.rounded-lg.transition-all.items-center:nth-child(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Community&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>be4f3d40-9dc5-4583-a297-96c4fbb82ebc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center gap-2 px-5 py-2.5 rounded-lg transition-all hover:bg-opacity-10</value>
+      <webElementGuid>4fa14430-3dab-4ca3-a62c-1ca43c7950d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Community</value>
+      <webElementGuid>b1a265dd-bfd4-42cc-82c8-2f8bd99a3606</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-d7f65ff243ccfe036be49d2ce6f2f9ec</value>
+      <webElementGuid>a5725430-b79e-4c8a-ac74-b7fa771272d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-all ') and contains(concat(' ', normalize-space(@class), ' '), ' items-center ') and (name() = 'button') and (position() = 2)]</value>
+      <webElementGuid>92c1c161-1ca6-4d06-bdcc-f97f9c852a00</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-all ') and contains(concat(' ', normalize-space(@class), ' '), ' items-center ') and (name() = 'button') and (position() = 2)]</value>
+      <webElementGuid>5173544d-3b0e-4bec-813a-8351813986c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Community' or . = 'Community')]</value>
+      <webElementGuid>9f45311e-44dc-4a72-9d91-4bf921acc377</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

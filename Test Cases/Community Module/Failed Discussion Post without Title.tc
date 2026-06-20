@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Failed Discussion Post without Title</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3c644cf1-dbbb-4603-a073-f7feff2c170d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select activity typeBadmintonFutsalVolley</name>
+   <tag></tag>
+   <elementGuidId>77630aed-f8b1-41c9-89e4-27effcaff871</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=combobox</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>dff552bc-87a8-4240-a11b-307cb65373be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full h-12 px-4 border rounded-lg transition-colors</value>
+      <webElementGuid>2dd0a0d0-000c-429e-900c-20a66a02989b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select activity typeBadmintonFutsalVolleyballPing PongGymBasketballRunningSwimmingOther</value>
+      <webElementGuid>601df996-fb17-4ead-b525-f89282a85d79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-b83b0f05aca55bb078d925bdbdb92fe3</value>
+      <webElementGuid>6d2371b7-4bf5-49f9-9633-9bd66bb9c396</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>3df41678-63d3-4b2b-b799-54f66a0a4e00</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>40c70898-0338-4305-8bae-035d534e9bb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[(text() = 'Select activity typeBadmintonFutsalVolleyballPing PongGymBasketballRunningSwimmingOther' or . = 'Select activity typeBadmintonFutsalVolleyballPing PongGymBasketballRunningSwimmingOther')]</value>
+      <webElementGuid>87dc37b3-492f-4e1f-9581-6c90e725cd18</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

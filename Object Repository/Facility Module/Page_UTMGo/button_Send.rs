@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Send</name>
+   <tag></tag>
+   <elementGuidId>a36ddb38-f6d4-4954-820f-dc87582daaef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-all ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.justify-center.transition-all</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Send&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0a868288-205a-40c4-9d5e-838a4833af70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>h-10 px-4 flex items-center justify-center disabled:opacity-50 disabled:cursor-not-allowed transition-all active:scale-95</value>
+      <webElementGuid>57330e43-28c3-4b93-ae8a-812be07afc1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Send</value>
+      <webElementGuid>31b8e30c-54d4-4312-9566-540c2a19f7da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f58a0dda1b2ff2a57677831a40c7f120</value>
+      <webElementGuid>791991a0-7a28-47e7-86fd-5e3cb0a618ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-all ')]</value>
+      <webElementGuid>2bf431cf-130f-4723-8017-8ffd277340b6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' justify-center ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-all ')]</value>
+      <webElementGuid>fea91fe0-89bf-474b-ab5d-a2332275b6f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Send' or . = 'Send')]</value>
+      <webElementGuid>2811db2d-26d8-4c19-88a5-25ffbfa4db82</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

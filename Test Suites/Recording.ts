@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Authentication</name>
+   <name>Recording</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>10</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>20f91b22-9938-42cf-92e9-1508da077994</testSuiteGuid>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>03348b27-350b-4005-9b6f-31f70e3a1f24</testSuiteGuid>
    <testCaseLink>
-      <guid>fb2c37b7-404d-419d-bfa7-95f237342007</guid>
+      <guid>8f5389c4-fc03-4809-a581-f8156b871290</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Invalid Credentials</testCaseId>
+      <testCaseId>Test Cases/Successful Activity Registration</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2ce57eb1-b639-4c15-ad3e-a8b82b04a807</guid>
+      <guid>7b0a1125-b9e3-4430-80d3-2eff1221a162</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Successful Login</testCaseId>
+      <testCaseId>Test Cases/Successful Detail Update</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f4d49531-0e90-4627-923f-d63ef7d6cb8e</guid>
+      <guid>f0d28ceb-2b9f-463b-aa64-398c4c215124</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Successful Registration</testCaseId>
+      <testCaseId>Test Cases/Missing Mandatory Field</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
