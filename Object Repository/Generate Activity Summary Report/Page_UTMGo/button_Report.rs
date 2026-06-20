@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Report</name>
+   <tag></tag>
+   <elementGuidId>d8bca6ab-c7bb-4301-93a7-f449ee7e517e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Report' or . = 'Report')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.rounded-lg.transition-colors.text-center:nth-child(3)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and contains(concat(' ', normalize-space(@class), ' '), ' text-center ') and (position() = 3)]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Report&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b51b397f-e586-4226-9592-45541a9749ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>border rounded-lg p-3 text-center transition-colors</value>
+      <webElementGuid>5a4a652a-a316-4c8e-af00-55caeb2121e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Report</value>
+      <webElementGuid>fb5bd2fa-6573-48de-bb90-cea2e4f92334</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-325b75af089a55a5d7d662c8b4433faa</value>
+      <webElementGuid>bed27ef4-6760-4e62-ba97-1cc8d09995e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and contains(concat(' ', normalize-space(@class), ' '), ' text-center ') and (position() = 3)]</value>
+      <webElementGuid>ec2b6176-61b7-4828-8981-24a8515e6bdb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-lg ') and contains(concat(' ', normalize-space(@class), ' '), ' transition-colors ') and contains(concat(' ', normalize-space(@class), ' '), ' text-center ') and (position() = 3)]</value>
+      <webElementGuid>be6d79af-f834-49c1-a21e-bedc765d9ade</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Report' or . = 'Report')]</value>
+      <webElementGuid>6fb4ab30-0ba9-4de4-8f9d-da092b5ab3dd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

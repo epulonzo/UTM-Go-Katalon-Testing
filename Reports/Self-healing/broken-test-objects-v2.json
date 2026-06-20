@@ -1,3 +1,34 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Generate Activity Summary Report/Page_UTMGo/button_Report",
+      "brokenLocator": "//*[@class and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 rounded-lg \u0027) and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 transition-colors \u0027) and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 text-center \u0027) and (position() \u003d 3)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/main/div/div/div/div[2]/div/section[3]/div/div[3]/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Generate Activity Summary Report/Page_UTMGo/button_Report_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Generate Activity Summary Report/Page_UTMGo/button_Year",
+      "brokenLocator": "//*[@class and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 rounded-lg \u0027) and contains(concat(\u0027 \u0027, normalize-space(@class), \u0027 \u0027), \u0027 border \u0027) and (position() \u003d 3)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/nav/div/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Generate Activity Summary Report/Page_UTMGo/button_Year_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Verify Recorded Activity/Page_UTMGo/select_PendingValidatedRejected",
+      "brokenLocator": "//*[(name() \u003d \u0027div\u0027) and (position() \u003d 6)]//select",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/main/div/div/div/div/div[3]/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Verify Recorded Activity/Page_UTMGo/select_PendingValidatedRejected_XPATH.png"
+    }
+  ]
 }
