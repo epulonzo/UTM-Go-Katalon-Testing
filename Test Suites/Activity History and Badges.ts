@@ -15,21 +15,21 @@
       <guid>8805bd0f-c53e-474c-9422-b4ff05fab3c9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Yearly Report Generation</testCaseId>
+      <testCaseId>Test Cases/Activity History and Badges Module/Yearly Report Generation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>55ec56d9-243e-4c30-92c3-12021befefc5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Export Report (PDF)</testCaseId>
+      <testCaseId>Test Cases/Activity History and Badges Module/Export Report (PDF)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>e68cebac-7728-4cf8-884f-9ca52a2e9049</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Reject Without Reason</testCaseId>
+      <testCaseId>Test Cases/Activity History and Badges Module/Reject Without Reason</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
